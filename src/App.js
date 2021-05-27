@@ -12,14 +12,14 @@ function App() {
 
         <br/ >
 
-        <img src={imageInSrc} alt="logo1" width="900" height="200" />
+        <img src={imageInSrc} alt="logo1" width="420" height="200" style={{marginLeft:"40vw"}} />
 
         <br/ >
-        <img src="/imageInPublicFolder.jpg" alt="log2" width="900" height="200" />
+        <img src="/imageInPublicFolder.jpg" alt="log2" width="420" height="200" style={{marginLeft:"40vw"}} />
 
     </div>
 
-<video width="320" height="240" controls>
+<video width="420" height="340" style={{marginLeft:"40vw"}} controls>
 
  <source src="myVideo.mp4" type="video/mp4" />
 
